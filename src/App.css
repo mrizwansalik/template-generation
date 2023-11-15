@@ -28,6 +28,60 @@
   color: #61dafb;
 }
 
+/* Add this styling to your CSS file */
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.generate-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.generate-button:hover {
+  background-color: #0056b3;
+}
+
+.output-container {
+  margin-top: 20px;
+}
+
+.output-header {
+  font-size: 18px;
+  color: #333;
+}
+
+.output-prompt {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
